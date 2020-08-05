@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="141433" started-at="2020-08-05T20:37:05Z" finished-at="2020-08-05T20:39:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Functional" duration-ms="141433" started-at="2020-08-05T20:37:05Z" finished-at="2020-08-05T20:39:26Z">
+      <class name="CommonLIB.TestRunner">
+        <test-method status="PASS" signature="BeforeTest(java.lang.String, java.lang.String)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="BeforeTest" is-config="true" duration-ms="7524" started-at="2020-08-05T20:37:05Z" finished-at="2020-08-05T20:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="setUpClass" is-config="true" duration-ms="954" started-at="2020-08-05T20:37:13Z" finished-at="2020-08-05T20:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="runScenario" duration-ms="33776" started-at="2020-08-05T20:37:14Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-05T20:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TestingNinja Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TestingNinja Book]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="runScenario" duration-ms="32439" started-at="2020-08-05T20:37:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-05T20:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TestingNinja Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TestingNinja Book]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="runScenario" duration-ms="31404" started-at="2020-08-05T20:38:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-05T20:38:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TestingNinja Booking1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TestingNinja Book]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="runScenario" duration-ms="32365" started-at="2020-08-05T20:38:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-05T20:39:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TestingNinja Booking1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[TestingNinja Book]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="tearDownClass" is-config="true" duration-ms="252" started-at="2020-08-05T20:39:25Z" finished-at="2020-08-05T20:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="Aftertest()[pri:0, instance:CommonLIB.TestRunner@3e9b1010]" name="Aftertest" is-config="true" duration-ms="742" started-at="2020-08-05T20:39:26Z" finished-at="2020-08-05T20:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+      </class> <!-- CommonLIB.TestRunner -->
+    </test> <!-- Functional -->
+  </suite> <!-- Suite -->
+</testng-results>

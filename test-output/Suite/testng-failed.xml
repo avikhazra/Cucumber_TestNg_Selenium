@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="implicitWait" value="60"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="Reports.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Functional(failed)">
+    <classes>
+      <class name="CommonLIB.TestRunner">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="Aftertest"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- CommonLIB.TestRunner -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [Suite] -->
